@@ -1,0 +1,95 @@
+[
+  {
+    "id": "201_0",
+    "name": "초보자 헬멧",
+    "kind": 201,
+    "imageKey": "Downloads/mines.png_0_0",
+    "description": "초보자 헬멧 설명"
+  },
+  {
+    "id": "201_1",
+    "name": "철 헬멧",
+    "kind": 201,
+    "imageKey": "Downloads/mines.png_0_1",
+    "description": "철 헬멧 설명"
+  },
+  {
+    "id": "201_2",
+    "name": "은 헬멧",
+    "kind": 201,
+    "imageKey": "Downloads/mines.png_0_2",
+    "description": "은 헬멧 설명"
+  },
+  {
+    "id": "202_0",
+    "name": "초보자 상의",
+    "kind": 202,
+    "imageKey": "Downloads/mines.png_1_0",
+    "description": "초보자 상의 설명"
+  },
+  {
+    "id": "202_1",
+    "name": "철 갑옷",
+    "kind": 202,
+    "imageKey": "Downloads/mines.png_1_1",
+    "description": "철 갑옷 설명"
+  },
+  {
+    "id": "202_2",
+    "name": "은 갑옷",
+    "kind": 202,
+    "imageKey": "Downloads/mines.png_1_2",
+    "description": "은 갑옷 설명"
+  },
+  {
+    "id": "203_0",
+    "name": "초보자 하의",
+    "kind": 203,
+    "imageKey": "Downloads/mines.png_2_0",
+    "description": "초보자 하의 설명"
+  },
+  {
+    "id": "203_1",
+    "name": "철 레깅스",
+    "kind": 203,
+    "imageKey": "Downloads/mines.png_2_1",
+    "description": "철 레깅스 설명"
+  },
+  {
+    "id": "203_2",
+    "name": "은 레깅스",
+    "kind": 203,
+    "imageKey": "Downloads/mines.png_2_2",
+    "description": "은 레깅스 설명"
+  },
+  {
+    "id": "204_0",
+    "name": "초보자 신발",
+    "kind": 204,
+    "imageKey": "Downloads/mines.png_3_0",
+    "description": "초보자 신발 설명"
+  },
+  {
+    "id": "204_1",
+    "name": "철 부츠",
+    "kind": 204,
+    "imageKey": "Downloads/mines.png_3_1",
+    "description": "철 부츠 설명"
+  },
+  {
+    "id": "204_2",
+    "name": "은 부츠",
+    "kind": 204,
+    "imageKey": "Downloads/mines.png_3_2",
+    "description": "은 부츠 설명"
+  },
+
+
+  {
+    "id": "301_0",
+    "name": "나무 검",
+    "kind": 301,
+    "imageKey": "Downloads/mines.png_4_0",
+    "description": "나무 검 설명"
+  }
+]

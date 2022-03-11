@@ -1,0 +1,42 @@
+package min.lwjgl3;
+
+import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
+import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
+import min.MainGame;
+import min.testGames.CollisionCheck;
+import min.testGames.PadCheck;
+import min.testGames.SpriteCheck;
+
+/** Launches the desktop (LWJGL3) application. */
+public class Lwjgl3Launcher {
+	static int SCREEN_WIDTH;
+	static int SCREEN_HEIGHT;
+
+	public static void main(String[] args) {
+		SCREEN_WIDTH = 960;
+		SCREEN_HEIGHT = 480;
+		createApplication();
+	}
+
+	private static Lwjgl3Application createApplication() {
+		if (false)
+			return new Lwjgl3Application(new CollisionCheck(), getDefaultConfiguration());
+		else
+			return new Lwjgl3Application(new MainGame(), getDefaultConfiguration());
+	}
+
+	private static Lwjgl3ApplicationConfiguration getDefaultConfiguration() {
+		Lwjgl3ApplicationConfiguration configuration = new Lwjgl3ApplicationConfiguration();
+		configuration.setTitle("ShotGame");
+		configuration.useVsync(false);
+		//// Limits FPS to the refresh rate of the currently active monitor.
+		//configuration.setForegroundFPS(Lwjgl3ApplicationConfiguration.getDisplayMode().refreshRate);
+		configuration.setForegroundFPS(144);
+		//// If you remove the above line and set Vsync to false, you can get unlimited FPS, which can be
+		//// useful for testing performance, but can also be very stressful to some hardware.
+		//// You may also need to configure GPU drivers to fully disable Vsync; this can cause screen tearing.
+		configuration.setWindowedMode(SCREEN_WIDTH, SCREEN_HEIGHT);
+		configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");
+		return configuration;
+	}
+}
